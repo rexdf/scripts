@@ -1,0 +1,10 @@
+#!/usr/bin/sh
+for dir in `ls`; do
+   pushd $dir
+   pwd
+   git reset --hard
+   git pull
+   svn upgrade .
+   svn update .
+   popd
+done

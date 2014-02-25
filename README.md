@@ -1,0 +1,1 @@
+It is my vim configuration,usefull bash etc.
