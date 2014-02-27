@@ -1,0 +1,26 @@
+wget "http://community.topcoder.com/tc?module=ProblemArchive&sr=1&er=3250&sc=&sd=&class=&cat=&div1l=&div2l=&mind1s=&mind2s=&maxd1s=&maxd2s=&wr=" --output-document=list.html
+grep -o 'pm=[0-9]*' list.html >tmp.txt
+sed -i 's/pm=//' tmp.txt
+cat tmp.txt | sort -u > list.txt
+echo "finish generate problem id"
+git clone https://github.com/seri/gettc.git
+pushd gettc
+rake 
+popd
+gem install gettc
+rm -rf gettc
+for num in `cat list.txt`; do gettc $num; done 
+echo "Finish download everthing"
+mkdir _ebook
+for dir in `ls`; do mkdir _ebook/$dir; cp -a $dir/prob _ebook/$dir/; done
+pushd _ebook
+echo "<ul>" > index.html
+find . | grep html | sort > tmplist.txt
+for file in `cat tmplist.txt`; do
+  name=`echo $file | awk -F/ '{print $2}'`
+  echo "<li><a href=\"$file\">$name</a></li>" >> index.html
+done
+echo "</ul>" >> index.html
+rm tmplist.txt
+popd
+zip -r _EBOOK.zip _ebook
