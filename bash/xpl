@@ -1,0 +1,17 @@
+#!/bin/bash
+ 
+cygwin=false;
+case "`uname`" in
+    CYGWIN*) cygwin=true ;;
+esac
+ 
+if [ "$1" = "" ]; then
+    XPATH=. # 缺省是当前目录
+else
+    XPATH=$1
+    if $cygwin; then
+        XPATH="$(cygpath -C ANSI -w "$XPATH")";
+    fi
+fi
+ 
+explorer $XPATH
