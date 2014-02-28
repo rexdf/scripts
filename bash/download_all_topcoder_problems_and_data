@@ -18,13 +18,15 @@ for dir in `ls`; do mkdir _ebook/$dir; cp -a $dir/prob _ebook/$dir/; done
 pushd _ebook
 rm -rf _ebook
 rm */*/*.md
-echo "<ul>" > index.html
+echo "<html><body><h1>Table of Contents</h1>" > index.html
+echo "<ul>" >> index.html
 find . | grep html | sort > tmplist.txt
 for file in `cat tmplist.txt`; do
   name=`echo $file | awk -F/ '{print $2}'`
   echo "<li><a href=\"$file\">$name</a></li>" >> index.html
 done
 echo "</ul>" >> index.html
+echo "</body></html>" >> index.html
 rm tmplist.txt
 popd
 zip -r _EBOOK.zip _ebook
