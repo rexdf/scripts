@@ -16,6 +16,7 @@ echo "Begin to make ebook"
 mkdir _ebook
 for dir in `ls`; do mkdir _ebook/$dir; cp -a $dir/prob _ebook/$dir/; done
 pushd _ebook
+rm */*/*.md
 echo "<ul>" > index.html
 find . | grep html | sort > tmplist.txt
 for file in `cat tmplist.txt`; do
