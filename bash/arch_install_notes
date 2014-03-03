@@ -1,0 +1,44 @@
+cfdisk
+mkfs.ext4 /dev/sda9
+mkswap /dev/sda12
+swapon /dev/sda12
+mount /dev/sda10 /mnt
+dhcpcd
+pacstrap /mnt base base-devel
+pacstrap /mnt grub-bios
+genfstab -p /mnt >>/mnt/etc/fstab
+arch-chroot /mnt
+vi /etc/hostname
+vi /etc/vconsole.conf #KEYMAP=us
+vi /etc/timezone #Asia/Shanghai
+vi /etc/locale.conf #LANG=en_US.UTF-8 #LANG=zh_CN.UTF-8
+vi /etc/locale.gen
+locale-gen
+mkinitcpio -p linux
+grub-install /dev/sda
+grub-mkconfig -o /boot/grub/grub.cfg
+passwd
+exit
+reboot
+dhcpcd
+pacman -Syu
+useradd -m -g users -G wheel -s /bin/bash xxxx
+passwd xxxx
+visudo #%wheel ALL=(ALL) ALL
+
+
+
+pacman -S virtualbox-guest-utils xorg-twm xorg-xclock xterm vim ruby wget git ttf-dejavu wqy-zenhei wqy-microhei xorg kde kde-l10n-zh_cn firefox firefox-i18n-zh-cn flashplugin chromium nurcuses ibus ibus-pinyin ibus-qt
+pacman base-devel svn mercurial
+systemctl enable NetworkManager.service
+systemctl enable kdm.service
+
+/etc/pacman.conf
+[archlinuxcn]
+#The Chinese Arch Linux communities packages.
+SigLevel = Optional TrustAll
+Server   = http://repo.archlinuxcn.org/$arch
+
+pacman -Syu yaourt
+
+yaourt ttf-ms-win8 ttf-ms-fonts ttf-win7-fonts vboxguest-hook
