@@ -1,723 +1,737 @@
 Cygwin Package Information
-Package                     Version
-_autorebase                 000511-1
-_update-info-dir            01211-1
-alternatives                1.3.30c-10
-at-spi2-core                2.8.0-1
-autoconf                    13-1
-autoconf2.1                 2.13-12
-autoconf2.5                 2.69-2
-automake                    9-1
-automake1.10                1.10.3-2
-automake1.11                1.11.6-2
-automake1.12                1.12.6-2
-automake1.13                1.13.4-1
-automake1.14                1.14-1
-automake1.4                 1.4p6-11
-automake1.5                 1.5-11
-automake1.6                 1.6.3-12
-automake1.7                 1.7.9-11
-automake1.8                 1.8.5-11
-automake1.9                 1.9.6-11
-base-cygwin                 3.3-1
-base-files                  4.1-1
-bash                        4.1.10-4
-bashdb                      3.1_0.09-1
-bcrypt                      1.1-2
-bind                        9.9.5-1
-bind-utils                  9.9.5-1
-binutils                    2.23.51-1
-bison                       2.7.1-1
-byacc                       20120526
-bzip2                       1.0.6-2
-bzr                         2.6.0-2
-bzr-fastimport              0.13.0-2
-ca-certificates             1.96-3
-chicken                     3.4.0-1
-clang                       3.1-3
-clang-analyzer              3.1-3
-clisp                       2.48-3
-clisp-clx                   2.48-3
-clisp-gdi                   2.48-3
-clisp-gtk2                  2.48-3
-cloog-isl                   0.18.0-2
-cloog-isl-debuginfo         0.18.0-2
-cloog-ppl                   0.15.11-1
-cmake                       2.8.9-2
-coreutils                   8.15-1
-cpio                        2.11-2
-crypt                       1.2-1
-csih                        0.9.7-1
-ctags                       5.8-1
-curl                        7.34.0-1
-cvs                         1.12.13-10
-cvs2svn                     2.4.0-1
-cvsps                       2.2b1-1
-cygrunsrv                   1.50-1
-cygutils                    1.4.14-1
-cygwin                      1.7.28-2
-cygwin-debuginfo            1.7.28-2
-cygwin64                    1.7.27-1
-cygwin64-binutils           2.23.52-4
-cygwin64-cloog-isl          0.18.0-1
-cygwin64-cloog-ppl          0.15.11-1
-cygwin64-expat              2.1.0-2
-cygwin64-gcc-core           4.8.2-2
-cygwin64-gcc-g++            4.8.2-2
-cygwin64-gettext            0.18.1.1-3
-cygwin64-gmp                5.1.1-2
-cygwin64-isl                0.11.1-1
-cygwin64-libgcrypt          1.5.0-1
-cygwin64-libgpg-error       1.10-1
-cygwin64-libiconv           1.14-3
-cygwin64-libmpc             1.0.1-2
-cygwin64-libxml2            2.9.0-2
-cygwin64-libxslt            1.1.27-2
-cygwin64-mpfr               3.1.2-1
-cygwin64-ppl                0.11.2-1
-cygwin64-tcl                8.5.11-1
-cygwin64-w32api-headers     3.1.0-2
-cygwin64-w32api-runtime     3.1.0-1
-cygwin64-zlib               1.2.8-1
-damageproto                 1.2.1-1
-dash                        0.5.7-1
-db4.5                       4.5.20.2-3
-db4.8                       4.8.30-1
-db4.8-doc                   4.8.30-1
-dbus                        1.6.16-1
-dconf-service               0.16.1-1
-dejagnu                     1.5-1
-desktop-file-utils          0.21-1
-dialog                      1.2-20140112-1
-diffutils                   3.2-1
-dos2unix                    6.0.4-1
-dri-drivers                 8.0.5-1
-ed                          1.9-1
-editrights                  1.01-2
-emacs                       24.3-2
-expat                       2.1.0-3
-expect                      5.45-1
-file                        5.11-1
-findutils                   4.5.11-1
-fixesproto                  5.0-1
-flex                        2.5.35-1
-flexdll                     0.31-1
-font-adobe-dpi100           1.0.2-1
-font-adobe-dpi75            1.0.2-1
-font-alias                  1.0.3-1
-font-cantarell-otf          0.0.15-1
-font-encodings              1.0.4-1
-font-misc-misc              1.1.1-1
-fontconfig                  2.10.93-1
-freetds                     0.91-4
-gamin                       0.1.10-14
-gawk                        4.1.0-1
-gcc-core                    4.8.2-2
-gcc-fortran                 4.8.2-2
-gcc-g++                     4.8.2-2
-gcc-java                    4.8.2-2
-gcc-objc                    4.8.2-2
-gcc-objc++                  4.8.2-2
-gcr                         3.8.2-1
-gdb                         7.6.50-4
-gdbm                        1.8.3-20
-gdk-pixbuf2.0-svg           2.36.4-1
-getent                      2.18.90-1
-gettext                     0.18.1.1-2
-gettext-devel               0.18.1.1-2
-ghostscript                 9.10-1
-ghostscript-fonts-other     6.0-1
-ghostscript-fonts-std       8.11-1
-git                         1.7.9-1
-git-svn                     1.7.9-1
-glib2.0-networking          2.36.2-1
-glproto                     1.4.17-1
-gmp                         5.1.3-1
-gnome-icon-theme            3.8.3-1
-gnome-keyring               3.8.2-1
-gnome-themes-standard       3.8.4-1
-gnupg                       1.4.16-1
-gnuplot                     4.6.3-1
-gnutls-guile                3.2.4-1
-gperf                       3.0.3-1
-grep                        2.16-1
-groff                       1.22.2-2
-gsettings-desktop-schemas   3.8.2-1
-gsl                         1.16-1
-gtk-update-icon-cache       3.8.8-1
-gtk2.0-engines-pixmap       2.24.22-1
-guile                       1.8.7-2
-guile-devel                 1.8.7-2
-gvfs                        1.16.4-1
-gvim                        7.4.182-1
-gzip                        1.4-1
-hicolor-icon-theme          0.12-1
-icu                         4.8.1-1
-ImageMagick                 6.7.6.3-3
-ImageMagick-doc             6.7.6.3-3
-inetutils                   1.9.1-1
-inetutils-server            1.9.1-1
-inputproto                  2.3-1
-iodbcadm-gtk                3.52.8-2
-iodbctest                   3.52.8-2
-ipc-utils                   1.0-1
-isl                         0.11.1-2
-isl-debuginfo               0.11.1-2
-kbproto                     1.0.6-1
-less                        444-1
-libAfterImage               1.18-1
-libAfterImage-devel         1.18-1
-libAfterImage0              1.18-1
-libamd-devel                2.3.1-2
-libamd0                     2.3.1-2
-libapr1                     1.4.8-1
-libaprutil1                 1.5.2-4
-libarchive2                 2.8.3-1
-libargp                     20110921-2
-libarpack-devel             3.1.4-1
-libarpack0                  3.1.4-1
-libasn1_8                   1.5.2-4
-libatk-bridge2.0_0          2.8.1-1
-libatk1.0_0                 2.8.0-1
-libatomic1                  4.8.2-2
-libatspi0                   2.8.0-1
-libattr1                    2.4.46-1
-libaudio-devel              1.9.3-1
-libaudio2                   1.9.3-1
-libautotrace3               0.31.1-12
-libavahi-client3            0.6.31-2
-libavahi-common3            0.6.31-2
-libavahi-glib1              0.6.31-2
-libblkid1                   2.21.2-1
-libboost-devel              1.53.0-2
-libboost1.50                1.50.0-1
-libboost1.53                1.53.0-2
-libboost_python-devel       1.53.0-2
-libboost_python1.50         1.50.0-1
-libboost_python1.53         1.53.0-2
-libboost_python3-devel      1.53.0-2
-libboost_python3_1.50       1.50.0-1
-libboost_python3_1.53       1.53.0-2
-libbz2-devel                1.0.6-2
-libbz2_1                    1.0.6-2
-libcairo2                   1.12.14-1
-libcamd-devel               2.3.1-2
-libcamd0                    2.3.1-2
-libccolamd-devel            2.8.0-2
-libccolamd0                 2.8.0-2
-libcharset1                 1.14-2
-libcholmod-devel            2.1.2-1
-libcholmod0                 2.1.2-1
-libclang                    3.1-3
-libclang-devel              3.1-3
-libcloog-devel              0.15.11-1
-libcloog-isl-devel          0.18.0-2
-libcloog-isl4               0.18.0-2
-libcloog0                   0.15.11-1
-libcolamd-devel             2.8.0-2
-libcolamd0                  2.8.0-2
-libcom_err2                 1.42.7-1
-libcroco0.6_3               0.6.8-1
-libct4                      0.91-4
-libcurl-devel               7.34.0-1
-libcurl4                    7.34.0-1
-libcxsparse-devel           3.1.2-1
-libcxsparse0                3.1.2-1
-libdatrie1                  0.2.6-1
-libdb4.5                    4.5.20.2-3
-libdb4.5-devel              4.5.20.2-3
-libdb4.8                    4.8.30-1
-libdb4.8-devel              4.8.30-1
-libdbus1_3                  1.6.16-1
-libdialog11                 1.2-20140112-1
-libecpg-compat2             8.2.11-1
-libecpg-compat3             9.3.2-2
-libecpg-devel               9.3.2-2
-libecpg5                    8.2.11-1
-libecpg6                    9.3.2-2
-libedit0                    20130712-1
-libEMF1                     1.0.7-2
-libexpat-devel              2.1.0-3
-libexpat0                   1.95.8-2
-libexpat1                   2.1.0-3
-libfam0                     0.1.10-14
-libfcgi0                    2.4.0-2
-libffi-devel                3.0.13-1
-libffi4                     4.5.3-3
-libffi6                     3.0.13-1
-libfftw3-devel              3.3.3-1
-libfftw3_3                  3.3.3-1
-libfltk-devel               1.3.2.9965-1
-libfltk1.3                  1.3.2.9965-1
-libfontconfig-devel         2.10.93-1
-libfontconfig1              2.10.93-1
-libfontenc1                 1.1.2-1
-libfpx                      1.3.1.2-1
-libfpx1                     1.3.1.2-1
-libfreetype-devel           2.4.12-1
-libfreetype6                2.4.12-1
-libgcc1                     4.8.2-2
-libgcj-common               4.8.2-2
-libgcj14                    4.8.2-2
-libgck1_0                   3.8.2-1
-libgcr3-common              3.8.2-1
-libgcr3_1                   3.8.2-1
-libgcrypt-devel             1.4.6-1
-libgcrypt11                 1.4.6-1
-libgd2                      2.0.36RC1-13
-libgdbm                     1.8.0-5
-libgdbm-devel               1.8.3-20
-libgdbm3                    1.8.3-3
-libgdbm4                    1.8.3-20
-libgdk_pixbuf2.0-devel      2.28.2-1
-libgdk_pixbuf2.0_0          2.28.2-1
-libgdk_pixbuf_xlib2.0-devel 2.28.2-1
-libgdk_pixbuf_xlib2.0_0     2.28.2-1
-libgettextpo0               0.18.1.1-2
-libgfortran3                4.8.2-2
-libggi2                     2.2.2-3
-libggiwmh0                  0.3.2-3
-libgif4                     4.1.6-10
-libgii1                     1.0.2-3
-libGL-devel                 8.0.5-1
-libGL1                      8.0.5-1
-libgl2ps-devel              1.3.8-1
-libgl2ps1                   1.3.8-1
-libglapi0                   8.0.5-1
-libglib2.0-devel            2.36.4-4
-libglib2.0_0                2.36.4-4
-libglpk33                   4.48-1
-libglpk35                   4.52-1
-libGLU-devel                9.0.0-1
-libGLU1                     9.0.0-1
-libgmp-devel                5.1.3-1
-libgmp-doc                  5.1.3-1
-libgmp10                    5.1.3-1
-libgmp3                     4.3.2-1
-libgmpxx4                   5.1.3-1
-libgnutls26                 2.12.20-1
-libgnutls28                 3.2.4-1
-libgomp1                    4.8.2-2
-libgpg-error-devel          1.10-1
-libgpg-error0               1.10-1
-libGraphicsMagick3          1.3.19-2
-libgraphite2_3              1.2.3-1
-libgs9                      9.10-1
-libgssapi3                  1.5.2-4
-libgtk2.0_0                 2.24.22-1
-libgtk3_0                   3.8.8-1
-libguile12                  1.6.7-4
-libguile17                  1.8.7-2
-libharfbuzz0                0.9.25-1
-libhdf5-devel               1.8.12-1
-libhdf5_7                   1.8.10-1
-libhdf5_8                   1.8.12-1
-libheimbase1                1.5.2-4
-libheimntlm0                1.5.2-4
-libhogweed2                 2.7-1
-libhx509_5                  1.5.2-4
-libICE-devel                1.0.8-1
-libICE6                     1.0.8-1
-libiconv                    1.14-2
-libiconv2                   1.14-2
-libicu-devel                4.8.1-1
-libicu48                    4.8.1-1
-libidn11                    1.26-1
-libImageMagick1             6.4.0.6-2
-libintl3                    0.14.5-1
-libintl8                    0.18.1.1-2
-libiodbc-devel              3.52.8-2
-libiodbc2                   3.52.8-2
-libisl-devel                0.11.1-2
-libisl10                    0.11.1-2
-libjasper1                  1.900.1-12
-libjbig-devel               2.0-12
-libjbig2                    2.0-12
-libjpeg-devel               8b-1
-libjpeg7                    7-10
-libjpeg8                    8b-1
-libkafs0                    1.5.2-4
-libkpathsea6                20130529-1
-libkrb5_26                  1.5.2-4
-liblapack-devel             3.5.0-2
-liblapack0                  3.5.0-2
-liblcms1                    1.19-3
-liblcms2_2                  2.5-1
-libllvm-devel               3.1-3
-libllvm3.1                  3.1-3
-libltdl7                    2.4-1
-liblzma-devel               5.0.2_20110517-1
-liblzma1                    4.999.9beta-11
-liblzma5                    5.0.2_20110517-1
-liblzo2_2                   2.06-1
-libMagickCore5              6.7.6.3-3
-libmcpp0                    2.7.2-2
-libmetalink3                0.1.2-1
-libmetis-devel              5.1.0-1
-libmetis0                   5.1.0-1
-libming1                    0.4.5-1
-libmng1                     1.0.10-3
-libmpc-devel                1.0.1-2
-libmpc1                     0.8-1
-libmpc3                     1.0.1-2
-libmpfr-devel               3.1.2-1
-libmpfr1                    2.4.1-4
-libmpfr4                    3.1.2-1
-libmysqlclient-devel        5.5.35-1
-libmysqlclient18            5.5.35-1
-libmysqld-devel             5.5.35-1
-libmysqld0                  5.5.35-1
-libncurses-devel            5.7-18
-libncurses10                5.7-18
-libncurses9                 5.7-16
-libncursesw-devel           5.7-18
-libncursesw10               5.7-18
-libneon27                   0.29.6-3
-libnetcdf7                  4.3.1.1-1
-libnettle4                  2.7-1
-libobjc4                    4.8.2-2
-libopenjpeg1                1.5.1-3
-libopenldap2_3_0            2.3.43-3
-libopenldap2_4_2            2.4.35-2
-libopenssl098               0.9.8y-1
-libopenssl100               1.0.1f-3
-libp11-kit0                 0.18.7-1
-libpango1.0_0               1.34.1-1
-libpaper-common             1.1.24-2
-libpaper1                   1.1.24-2
-libpcre-devel               8.33-1
-libpcre0                    8.21-2
-libpcre1                    8.33-1
-libpcre16_0                 8.33-1
-libpcre32_0                 8.33-1
-libpcrecpp0                 8.33-1
-libpcreposix0               8.33-1
-libpgtypes2                 8.2.11-1
-libpgtypes3                 9.3.2-2
-libpixman1_0                0.32.4-1
-libplotter2                 2.6-3
-libpng-devel                1.5.12-1
-libpng12                    1.2.50-2
-libpng12-devel              1.2.50-2
-libpng14                    1.4.12-3
-libpng15                    1.5.12-1
-libpoppler28                0.20.5-2
-libpopt0                    1.16-1
-libppl-devel                0.11.2-1
-libppl9                     0.11.2-1
-libppl_c4                   0.11.2-1
-libpq                       8.2.11-1
-libpq-devel                 9.3.2-2
-libpq3                      7.4.5-1
-libpq5                      9.3.2-2
-libproxy1                   0.4.11-2
-libpstoedit0                3.62-1
-libptexenc1                 20130529-1
-libpwl5                     0.11.2-1
-libqhull_6                  2012.1-2
-libqrupdate-devel           1.1.2-1
-libqrupdate0                1.1.2-1
-libqscintilla2-common       2.8-1
-libqscintilla2-devel        2.8-1
-libqscintilla2_11           2.8-1
-libqscintilla2_9            2.7.2-1
-libQtCore4                  4.8.5-3
-libQtCore4-devel            4.8.5-3
-libQtGui4                   4.8.5-3
-libQtGui4-devel             4.8.5-3
-libQtNetwork4               4.8.5-3
-libQtNetwork4-devel         4.8.5-3
-libQtXml4                   4.8.5-3
-libquadmath0                4.8.2-2
-libreadline6                5.2.14-12
-libreadline7                6.1.2-3
-libroken18                  1.5.2-4
-librsvg2_2                  2.36.4-1
-libsasl2                    2.1.23-1
-libsasl2-devel              2.1.26-6
-libsasl2_3                  2.1.26-6
-libsecret1_0                0.15-1
-libserf1_0                  1.3.3-1
-libsigsegv2                 2.10-1
-libSM-devel                 1.2.2-1
-libSM6                      1.2.2-1
-libsoup-gnome2.4_1          2.42.3.1-1
-libsoup2.4_1                2.42.3.1-1
-libsqlite3-devel            3.8.3.1-1
-libsqlite3_0                3.8.3.1-1
-libssh2_1                   1.4.2-1
-libssp0                     4.8.2-2
-libstdc++6                  4.8.2-2
-libstdc++6-devel            4.8.2-2
-libsuitesparseconfig-devel  4.2.1-1
-libsuitesparseconfig0       4.2.1-1
-libsybdb-devel              0.91-4
-libsybdb5                   0.91-4
-libtasn1_3                  2.14-1
-libtasn1_6                  3.3-1
-libtdb-devel                1.2.11-2
-libtdb1                     1.2.11-2
-libthai0                    0.1.19-1
-libtiff-devel               3.9.7-1
-libtiff5                    3.9.7-1
-libtool                     2.4-1
-libumfpack-devel            5.6.2-1
-libumfpack0                 5.6.2-1
-libusb-win32                1.2.6.0-1
-libusb0                     1.2.6.0-1
-libuuid-devel               2.21.2-1
-libuuid1                    2.21.2-1
-libvpx                      1.1.0-1
-libvpx-devel                1.1.0-1
-libvpx1                     1.1.0-1
-libwind0                    1.5.2-4
-libWINGs2                   0.95.4-1
-libwmf027                   0.2.8.4-11
-libwrap-devel               7.6-22
-libwrap0                    7.6-22
-libwraster3                 0.95.4-1
-libX11-devel                1.6.2-1
-libX11-xcb-devel            1.6.2-1
-libX11-xcb1                 1.6.2-1
-libX11_6                    1.6.2-1
-libXau-devel                1.0.8-1
-libXau6                     1.0.8-1
-libXaw7                     1.0.12-1
-libxcb-devel                1.9.1-2
-libxcb-glx-devel            1.9.1-2
-libxcb-glx0                 1.9.1-2
-libxcb-icccm4               0.3.9-1
-libxcb-image0               0.3.9-1
-libxcb-render0              1.9.1-2
-libxcb-shm0                 1.9.1-2
-libxcb-util1                0.3.9-1
-libxcb1                     1.9.1-2
-libXcomposite1              0.4.3-1
-libXcursor-devel            1.1.14-1
-libXcursor1                 1.1.14-1
-libXdamage-devel            1.1.4-1
-libXdamage1                 1.1.4-1
-libXdmcp-devel              1.1.1-1
-libXdmcp6                   1.1.1-1
-libXext-devel               1.3.2-1
-libXext6                    1.3.2-1
-libXfixes-devel             5.0.1-1
-libXfixes3                  5.0.1-1
-libXft-devel                2.3.1-1
-libXft2                     2.3.1-1
-libXi-devel                 1.7.2-1
-libXi6                      1.7.2-1
-libXinerama-devel           1.1.3-1
-libXinerama1                1.1.3-1
-libxkbfile1                 1.0.8-1
-libxml2                     2.9.1-1
-libxml2-debuginfo           2.9.1-1
-libxml2-devel               2.9.1-1
-libxml2-doc                 2.9.1-1
-libXmu6                     1.1.2-1
-libXmuu1                    1.1.2-1
-libXpm4                     3.5.11-1
-libXrandr-devel             1.4.2-1
-libXrandr2                  1.4.2-1
-libXrender-devel            0.9.8-1
-libXrender1                 0.9.8-1
-libxslt                     1.1.28-1
-libxslt-devel               1.1.28-1
-libxslt-doc                 1.1.28-1
-libXss1                     1.2.2-1
-libXt-devel                 1.1.4-1
-libXt6                      1.1.4-1
-libXtst6                    1.2.2-1
-libyaml0_2                  0.1.4-2
-libzzip-devel               0.13.62-1
-libzzip0.13                 0.13.62-1
-llvm                        3.1-3
-llvm-doc                    3.1-3
-login                       1.10-10
-lua                         5.1.5-1
-luit                        20130217-1
-lzip                        1.14-1
-m4                          1.4.17-1
-make                        4.0-2
-man                         1.6g-2
-mathomatic                  16.0.0-1
-mcpp                        2.7.2-2
-mercurial                   2.7.1-1
-mesa                        8.0.5-1
-mingw-binutils              2.23.1-1
-mingw-bzip2                 1.0.6-2
-mingw-gcc-core              4.7.3-1
-mingw-gcc-g++               4.7.3-1
-mingw-libbz2-devel          1.0.6-2
-mingw-libbz2_2              1.0.6-2
-mingw-pthreads              20110507-2
-mingw-runtime               4.0-1
-mingw-w32api                4.0-1
-mingw-zlib                  1.2.8-1
-mingw-zlib-devel            1.2.8-1
-mingw-zlib1                 1.2.8-1
-mingw64-i686-binutils       2.22.52-1
-mingw64-i686-gcc            4.8.2-2
-mingw64-i686-gcc-core       4.8.2-2
-mingw64-i686-gcc-g++        4.8.2-2
-mingw64-i686-headers        3.1.0-1
-mingw64-i686-minizip        1.2.8-3
-mingw64-i686-pthreads       20100619-5
-mingw64-i686-runtime        3.1.0-1
-mingw64-i686-winpthreads    3.1.0-1
-mingw64-i686-zlib           1.2.8-3
-mingw64-x86_64-binutils     2.22.52-1
-mingw64-x86_64-bzip2        1.0.6-4
-mingw64-x86_64-gcc          4.8.2-2
-mingw64-x86_64-gcc-core     4.8.2-2
-mingw64-x86_64-gcc-g++      4.8.2-2
-mingw64-x86_64-headers      3.1.0-1
-mingw64-x86_64-minizip      1.2.8-3
-mingw64-x86_64-pthreads     20100619-5
-mingw64-x86_64-runtime      3.1.0-1
-mingw64-x86_64-winpthreads  3.1.0-1
-mingw64-x86_64-xz           5.0.5-1
-mingw64-x86_64-zlib         1.2.8-3
-mintty                      1.1.3-1
-mkfontdir                   1.0.7-1
-mkfontscale                 1.1.1-1
-mpclib                      1.0.1-2
-mpfr                        3.1.2-1
-mysql                       5.5.35-1
-mysql-test                  5.5.35-1
-mysqld                      5.5.35-1
-ncurses                     5.7-18
-ocaml                       4.01.0-2
-ocaml-base                  4.01.0-1
-ocaml-camlp4                4.01.0-1
-ocaml-compiler-libs         4.01.0-1
-ocaml-llvm                  3.1-3
-octave                      3.8.0-2
-octave-control              2.6.2-1
-octave-devel                3.8.0-2
-octave-doc                  3.8.0-2
-octave-forge                20140215-1
-octave-general              1.3.4-1
-octave-image                2.2.0r867-1
-octave-signal               1.3.0-1
-odbc-mysql                  5.2.5-1
-odbc-psql                   09.02.0100-1
-odbc-sqlite3                0.993-1
-odbc-tds                    0.91-4
-openldap-devel              2.4.35-2
-openssh                     6.5p1-1
-openssl                     1.0.1f-3
-openssl-devel               1.0.1f-3
-p11-kit                     0.18.7-1
-p11-kit-trust               0.18.7-1
-p7zip                       9.20.1-1
-patch                       2.7.1-1
-patcher                     0.0.20040521-1
-patchutils                  0.3.2-1
-perl                        5.14.2-3
-perl-Clone                  0.34-1
-perl-DBD-mysql              4.022-1
-perl-DBI                    1.623-2
-perl-Error                  0.17016-1
-perl-Image-Magick           6.7.6.3-3
-perl-Locale-gettext         1.05-12
-perl_vendor                 5.14.2-3
-poppler-data                0.4.6-1
-popt                        1.16-1
-postgresql                  9.3.2-2
-postgresql-client           9.3.2-2
-postgresql-contrib          9.3.2-2
-postgresql-devel            9.3.2-2
-postgresql-doc              9.3.2-2
-postgresql-plperl           9.3.2-2
-postgresql-plpython         9.3.2-2
-pylint                      0.25.1-2
-python                      2.7.3-1
-python-bsddb3               5.3.0-2
-python-clang                3.1-3
-python-fastimport           0.9.2-2
-python-imaging              1.1.7-5
-python-libxml2              2.9.1-1
-python-libxslt              1.1.28-1
-python-logilab-astng        0.23.1-2
-python-logilab-common       0.58.0-2
-python-pyrex                0.9.9-3
-python-tkinter              2.7.3-1
-python3                     3.2.3-1
-python3-clang               3.1-3
-R                           3.0.1-1
-randrproto                  1.4.0-1
-readline                    6.1.2-3
-rebase                      4.4.1-1
-renderproto                 0.11.1-1
-rlwrap                      0.37-1
-rsync                       3.0.9-1
-ruby                        1.9.3-p484-1
-ruby-json                   1.8.0-1
-ruby-rake                   10.0.4-1
-ruby-rdoc                   3.12.2-1
-ruby-tcltk                  1.9.3-p484-1
-run                         1.3.0-1
-sed                         4.2.2-3
-shared-mime-info            1.1-1
-sqlite3                     3.8.3.1-1
-subversion                  1.8.8-1
-subversion-perl             1.8.8-1
-svn-load                    1.3-1
-t1lib5                      5.1.2-12
-tar                         1.26-1
-tcl                         8.5.11-1
-tcl-db4.5                   4.5.20.2-3
-tcl-db4.8                   4.8.30-1
-tcl-itcl                    3.4.1-1
-tcl-itk                     3.3-2
-tcl-ming                    0.4.5-1
-tcl-sqlite3                 3.8.3.1-1
-tcl-tix                     8.4.3-2
-tcl-tk                      8.5.11-1
-tdb                         1.2.11-2
-terminfo                    5.7_20091114-14
-terminfo-extra              5.7_20091114-14
-texinfo                     5.2-1
-texlive                     20130529-1
-texlive-collection-basic    20130529-1
-tree                        1.6.0-1
-tzcode                      2013d-1
-unzip                       6.0-10
-urlgrabber                  3.1.0-3
-util-linux                  2.21.2-1
-vim                         7.4.182-1
-vim-common                  7.4.182-1
-vim-minimal                 7.4.182-1
-w32api-headers              3.1.0-1
-w32api-runtime              3.1.0-1
-wget                        1.13.4-1
-which                       2.20-2
-WindowMaker                 0.95.4-1
-WordNet                     3.0-3
-X-start-menu-icons          1.0.4-1
-xauth                       1.0.8-1
-xcalc                       1.0.5-1
-xcursor-themes              1.0.4-1
-xemacs-emacs-common         21.4.22-1
-xextproto                   7.3.0-1
-xf86-video-dummy            0.3.7-1
-xf86-video-nested           0.1.0-4
-xineramaproto               1.2.1-1
-xinit                       1.3.2-1
-xkbcomp                     1.2.4-1
-xkeyboard-config            2.10.1-1
-xlsx2csv                    0.11+20120814+gitf54ab78-1
-xmodmap                     1.0.8-1
-xorg-server                 1.15.0-3
-xorg-server-common          1.15.0-3
-xproto                      7.0.25-1
-xrdb                        1.1.0-1
-xterm                       302-1
-xxd                         7.4.182-1
-xz                          5.0.2_20110517-1
-ytree                       1.97-1
-zip                         3.0-11
-zlib                        1.2.8-1
-zlib-devel                  1.2.8-1
-zlib0                       1.2.8-1
+Package                     Version                        Status
+_autorebase                 000511-1                       OK
+_update-info-dir            01211-1                        OK
+alternatives                1.3.30c-10                     OK
+at-spi2-core                2.8.0-1                        OK
+autoconf                    13-1                           OK
+autoconf2.1                 2.13-12                        OK
+autoconf2.5                 2.69-2                         OK
+automake                    9-1                            OK
+automake1.10                1.10.3-2                       OK
+automake1.11                1.11.6-2                       OK
+automake1.12                1.12.6-2                       OK
+automake1.13                1.13.4-1                       OK
+automake1.14                1.14-1                         OK
+automake1.4                 1.4p6-11                       OK
+automake1.5                 1.5-11                         OK
+automake1.6                 1.6.3-12                       OK
+automake1.7                 1.7.9-11                       OK
+automake1.8                 1.8.5-11                       OK
+automake1.9                 1.9.6-11                       OK
+base-cygwin                 3.3-1                          OK
+base-files                  4.1-1                          OK
+bash                        4.1.10-4                       OK
+bashdb                      3.1_0.09-1                     OK
+bcrypt                      1.1-2                          OK
+bind                        9.9.5-1                        OK
+bind-utils                  9.9.5-1                        OK
+binutils                    2.23.51-1                      OK
+bison                       2.7.1-1                        OK
+build-docbook-catalog       1.5-2                          OK
+byacc                       20120526                       OK
+bzip2                       1.0.6-2                        OK
+bzr                         2.6.0-2                        OK
+bzr-fastimport              0.13.0-2                       OK
+ca-certificates             1.96-3                         OK
+chicken                     3.4.0-1                        OK
+clang                       3.1-3                          OK
+clang-analyzer              3.1-3                          OK
+clisp                       2.48-3                         OK
+clisp-clx                   2.48-3                         OK
+clisp-gdi                   2.48-3                         OK
+clisp-gtk2                  2.48-3                         OK
+cloog-isl                   0.18.0-2                       OK
+cloog-isl-debuginfo         0.18.0-2                       OK
+cloog-ppl                   0.15.11-1                      OK
+cmake                       2.8.9-2                        OK
+coreutils                   8.15-1                         OK
+cpio                        2.11-2                         OK
+crypt                       1.2-1                          OK
+csih                        0.9.7-1                        OK
+ctags                       5.8-1                          OK
+curl                        7.34.0-1                       OK
+cvs                         1.12.13-10                     OK
+cvs2svn                     2.4.0-1                        OK
+cvsps                       2.2b1-1                        OK
+cygrunsrv                   1.50-1                         OK
+cygutils                    1.4.14-1                       OK
+cygwin                      1.7.28-2                       OK
+cygwin-debuginfo            1.7.28-2                       OK
+cygwin64                    1.7.27-1                       OK
+cygwin64-binutils           2.23.52-4                      OK
+cygwin64-cloog-isl          0.18.0-1                       OK
+cygwin64-cloog-ppl          0.15.11-1                      OK
+cygwin64-expat              2.1.0-2                        OK
+cygwin64-gcc-core           4.8.2-2                        OK
+cygwin64-gcc-g++            4.8.2-2                        OK
+cygwin64-gettext            0.18.1.1-3                     OK
+cygwin64-gmp                5.1.1-2                        OK
+cygwin64-isl                0.11.1-1                       OK
+cygwin64-libgcrypt          1.5.0-1                        OK
+cygwin64-libgpg-error       1.10-1                         OK
+cygwin64-libiconv           1.14-3                         OK
+cygwin64-libmpc             1.0.1-2                        OK
+cygwin64-libtool            2.4.2-2                        OK
+cygwin64-libxml2            2.9.0-2                        OK
+cygwin64-libxslt            1.1.27-2                       OK
+cygwin64-mpfr               3.1.2-1                        OK
+cygwin64-ppl                0.11.2-1                       OK
+cygwin64-sqlite3            3.7.15.2-1                     OK
+cygwin64-tcl                8.5.11-1                       OK
+cygwin64-w32api-headers     3.1.0-2                        OK
+cygwin64-w32api-runtime     3.1.0-1                        OK
+cygwin64-zlib               1.2.8-1                        OK
+damageproto                 1.2.1-1                        OK
+dash                        0.5.7-1                        OK
+db4.5                       4.5.20.2-3                     OK
+db4.8                       4.8.30-1                       OK
+db4.8-doc                   4.8.30-1                       OK
+dbus                        1.6.16-1                       OK
+dconf-service               0.16.1-1                       OK
+dejagnu                     1.5-1                          OK
+desktop-file-utils          0.21-1                         OK
+dialog                      1.2-20140112-1                 OK
+diffutils                   3.2-1                          OK
+docbook-xml-simple10        1.0-2                          OK
+docbook-xml-simple11        1.1-2                          OK
+docbook-xsl                 1.77.1-1                       OK
+dos2unix                    6.0.4-1                        OK
+dri-drivers                 8.0.5-1                        OK
+ed                          1.9-1                          OK
+editrights                  1.01-2                         OK
+emacs                       24.3-2                         OK
+expat                       2.1.0-3                        OK
+expect                      5.45-1                         OK
+file                        5.11-1                         OK
+findutils                   4.5.11-1                       OK
+fixesproto                  5.0-1                          OK
+flex                        2.5.35-1                       OK
+flexdll                     0.31-1                         OK
+font-adobe-dpi100           1.0.2-1                        OK
+font-adobe-dpi75            1.0.2-1                        OK
+font-alias                  1.0.3-1                        OK
+font-cantarell-otf          0.0.15-1                       OK
+font-encodings              1.0.4-1                        OK
+font-misc-misc              1.1.1-1                        OK
+fontconfig                  2.10.93-1                      OK
+freetds                     0.91-4                         OK
+gamin                       0.1.10-14                      OK
+gawk                        4.1.0-1                        OK
+gcc-core                    4.8.2-2                        OK
+gcc-fortran                 4.8.2-2                        OK
+gcc-g++                     4.8.2-2                        OK
+gcc-java                    4.8.2-2                        OK
+gcc-objc                    4.8.2-2                        OK
+gcc-objc++                  4.8.2-2                        OK
+gcr                         3.8.2-1                        OK
+gdb                         7.6.50-4                       OK
+gdbm                        1.8.3-20                       OK
+gdk-pixbuf2.0-svg           2.36.4-1                       OK
+getent                      2.18.90-1                      OK
+gettext                     0.18.1.1-2                     OK
+gettext-devel               0.18.1.1-2                     OK
+ghostscript                 9.10-1                         OK
+ghostscript-fonts-other     6.0-1                          OK
+ghostscript-fonts-std       8.11-1                         OK
+git                         1.7.9-1                        OK
+git-svn                     1.7.9-1                        OK
+glib2.0-networking          2.36.2-1                       OK
+glproto                     1.4.17-1                       OK
+gmp                         5.1.3-1                        OK
+gnome-icon-theme            3.8.3-1                        OK
+gnome-keyring               3.8.2-1                        OK
+gnome-themes-standard       3.8.4-1                        OK
+gnupg                       1.4.16-1                       OK
+gnuplot                     4.6.3-1                        OK
+gnutls-guile                3.2.4-1                        OK
+gperf                       3.0.3-1                        OK
+grep                        2.16-1                         OK
+groff                       1.22.2-2                       OK
+gsettings-desktop-schemas   3.8.2-1                        OK
+gsl                         1.16-1                         OK
+gtk-update-icon-cache       3.8.8-1                        OK
+gtk2.0-engines-pixmap       2.24.22-1                      OK
+guile                       1.8.7-2                        OK
+guile-devel                 1.8.7-2                        OK
+gvfs                        1.16.4-1                       OK
+gvim                        7.4.182-1                      OK
+gzip                        1.4-1                          OK
+hicolor-icon-theme          0.12-1                         OK
+icu                         4.8.1-1                        OK
+ImageMagick                 6.7.6.3-3                      OK
+ImageMagick-doc             6.7.6.3-3                      OK
+inetutils                   1.9.1-1                        OK
+inetutils-server            1.9.1-1                        OK
+inputproto                  2.3-1                          OK
+iodbcadm-gtk                3.52.8-2                       OK
+iodbctest                   3.52.8-2                       OK
+ipc-utils                   1.0-1                          OK
+isl                         0.11.1-2                       OK
+isl-debuginfo               0.11.1-2                       OK
+kbproto                     1.0.6-1                        OK
+less                        444-1                          OK
+libAfterImage               1.18-1                         OK
+libAfterImage-devel         1.18-1                         OK
+libAfterImage0              1.18-1                         OK
+libamd-devel                2.3.1-2                        OK
+libamd0                     2.3.1-2                        OK
+libapr1                     1.4.8-1                        OK
+libaprutil1                 1.5.2-4                        OK
+libarchive2                 2.8.3-1                        OK
+libargp                     20110921-2                     OK
+libarpack-devel             3.1.4-1                        OK
+libarpack0                  3.1.4-1                        OK
+libasn1_8                   1.5.2-4                        OK
+libatk-bridge2.0_0          2.8.1-1                        OK
+libatk1.0_0                 2.8.0-1                        OK
+libatomic1                  4.8.2-2                        OK
+libatspi0                   2.8.0-1                        OK
+libattr1                    2.4.46-1                       OK
+libaudio-devel              1.9.3-1                        OK
+libaudio2                   1.9.3-1                        OK
+libautotrace3               0.31.1-12                      OK
+libavahi-client3            0.6.31-2                       OK
+libavahi-common3            0.6.31-2                       OK
+libavahi-glib1              0.6.31-2                       OK
+libblkid1                   2.21.2-1                       OK
+libboost-devel              1.53.0-2                       OK
+libboost1.50                1.50.0-1                       OK
+libboost1.53                1.53.0-2                       OK
+libboost_python-devel       1.53.0-2                       OK
+libboost_python1.50         1.50.0-1                       OK
+libboost_python1.53         1.53.0-2                       OK
+libboost_python3-devel      1.53.0-2                       OK
+libboost_python3_1.50       1.50.0-1                       OK
+libboost_python3_1.53       1.53.0-2                       OK
+libbz2-devel                1.0.6-2                        OK
+libbz2_1                    1.0.6-2                        OK
+libcairo2                   1.12.14-1                      OK
+libcamd-devel               2.3.1-2                        OK
+libcamd0                    2.3.1-2                        OK
+libccolamd-devel            2.8.0-2                        OK
+libccolamd0                 2.8.0-2                        OK
+libcharset1                 1.14-2                         OK
+libcholmod-devel            2.1.2-1                        OK
+libcholmod0                 2.1.2-1                        OK
+libclang                    3.1-3                          OK
+libclang-devel              3.1-3                          OK
+libcloog-devel              0.15.11-1                      OK
+libcloog-isl-devel          0.18.0-2                       OK
+libcloog-isl4               0.18.0-2                       OK
+libcloog0                   0.15.11-1                      OK
+libcolamd-devel             2.8.0-2                        OK
+libcolamd0                  2.8.0-2                        OK
+libcom_err2                 1.42.7-1                       OK
+libcroco0.6_3               0.6.8-1                        OK
+libct4                      0.91-4                         OK
+libcurl-devel               7.34.0-1                       OK
+libcurl4                    7.34.0-1                       OK
+libcxsparse-devel           3.1.2-1                        OK
+libcxsparse0                3.1.2-1                        OK
+libdatrie1                  0.2.6-1                        OK
+libdb4.5                    4.5.20.2-3                     OK
+libdb4.5-devel              4.5.20.2-3                     OK
+libdb4.8                    4.8.30-1                       OK
+libdb4.8-devel              4.8.30-1                       OK
+libdbus1_3                  1.6.16-1                       OK
+libdialog11                 1.2-20140112-1                 OK
+libecpg-compat2             8.2.11-1                       OK
+libecpg-compat3             9.3.2-2                        OK
+libecpg-devel               9.3.2-2                        OK
+libecpg5                    8.2.11-1                       OK
+libecpg6                    9.3.2-2                        OK
+libedit0                    20130712-1                     OK
+libEMF1                     1.0.7-2                        OK
+libexpat-devel              2.1.0-3                        OK
+libexpat0                   1.95.8-2                       OK
+libexpat1                   2.1.0-3                        OK
+libfam0                     0.1.10-14                      OK
+libfcgi0                    2.4.0-2                        OK
+libffi-devel                3.0.13-1                       OK
+libffi4                     4.5.3-3                        OK
+libffi6                     3.0.13-1                       OK
+libfftw3-devel              3.3.3-1                        OK
+libfftw3_3                  3.3.3-1                        OK
+libfltk-devel               1.3.2.9965-1                   OK
+libfltk1.3                  1.3.2.9965-1                   OK
+libfontconfig-devel         2.10.93-1                      OK
+libfontconfig1              2.10.93-1                      OK
+libfontenc1                 1.1.2-1                        OK
+libfpx                      1.3.1.2-1                      OK
+libfpx1                     1.3.1.2-1                      OK
+libfreetype-devel           2.4.12-1                       OK
+libfreetype6                2.4.12-1                       OK
+libgcc1                     4.8.2-2                        OK
+libgcj-common               4.8.2-2                        OK
+libgcj14                    4.8.2-2                        OK
+libgck1_0                   3.8.2-1                        OK
+libgcr3-common              3.8.2-1                        OK
+libgcr3_1                   3.8.2-1                        OK
+libgcrypt-devel             1.4.6-1                        OK
+libgcrypt11                 1.4.6-1                        OK
+libgd2                      2.0.36RC1-13                   OK
+libgdbm                     1.8.0-5                        OK
+libgdbm-devel               1.8.3-20                       OK
+libgdbm3                    1.8.3-3                        OK
+libgdbm4                    1.8.3-20                       OK
+libgdk_pixbuf2.0-devel      2.28.2-1                       OK
+libgdk_pixbuf2.0_0          2.28.2-1                       OK
+libgdk_pixbuf_xlib2.0-devel 2.28.2-1                       OK
+libgdk_pixbuf_xlib2.0_0     2.28.2-1                       OK
+libgettextpo0               0.18.1.1-2                     OK
+libgfortran3                4.8.2-2                        OK
+libggi2                     2.2.2-3                        OK
+libggiwmh0                  0.3.2-3                        OK
+libgif4                     4.1.6-10                       OK
+libgii1                     1.0.2-3                        OK
+libGL-devel                 8.0.5-1                        OK
+libGL1                      8.0.5-1                        OK
+libgl2ps-devel              1.3.8-1                        OK
+libgl2ps1                   1.3.8-1                        OK
+libglapi0                   8.0.5-1                        OK
+libglib2.0-devel            2.36.4-4                       OK
+libglib2.0_0                2.36.4-4                       OK
+libglpk33                   4.48-1                         OK
+libglpk35                   4.52-1                         OK
+libGLU-devel                9.0.0-1                        OK
+libGLU1                     9.0.0-1                        OK
+libgmp-devel                5.1.3-1                        OK
+libgmp-doc                  5.1.3-1                        OK
+libgmp10                    5.1.3-1                        OK
+libgmp3                     4.3.2-1                        OK
+libgmpxx4                   5.1.3-1                        OK
+libgnutls26                 2.12.20-1                      OK
+libgnutls28                 3.2.4-1                        OK
+libgomp1                    4.8.2-2                        OK
+libgpg-error-devel          1.10-1                         OK
+libgpg-error0               1.10-1                         OK
+libGraphicsMagick3          1.3.19-2                       OK
+libgraphite2_3              1.2.3-1                        OK
+libgs9                      9.10-1                         OK
+libgssapi3                  1.5.2-4                        OK
+libgtk2.0_0                 2.24.22-1                      OK
+libgtk3_0                   3.8.8-1                        OK
+libguile12                  1.6.7-4                        OK
+libguile17                  1.8.7-2                        OK
+libharfbuzz0                0.9.25-1                       OK
+libhdf5-devel               1.8.12-1                       OK
+libhdf5_7                   1.8.10-1                       OK
+libhdf5_8                   1.8.12-1                       OK
+libheimbase1                1.5.2-4                        OK
+libheimntlm0                1.5.2-4                        OK
+libhogweed2                 2.7-1                          OK
+libhx509_5                  1.5.2-4                        OK
+libICE-devel                1.0.8-1                        OK
+libICE6                     1.0.8-1                        OK
+libiconv                    1.14-2                         OK
+libiconv2                   1.14-2                         OK
+libicu-devel                4.8.1-1                        OK
+libicu48                    4.8.1-1                        OK
+libidn11                    1.26-1                         OK
+libImageMagick1             6.4.0.6-2                      OK
+libintl3                    0.14.5-1                       OK
+libintl8                    0.18.1.1-2                     OK
+libiodbc-devel              3.52.8-2                       OK
+libiodbc2                   3.52.8-2                       OK
+libisl-devel                0.11.1-2                       OK
+libisl10                    0.11.1-2                       OK
+libjasper1                  1.900.1-12                     OK
+libjbig-devel               2.0-12                         OK
+libjbig2                    2.0-12                         OK
+libjpeg-devel               8b-1                           OK
+libjpeg7                    7-10                           OK
+libjpeg8                    8b-1                           OK
+libkafs0                    1.5.2-4                        OK
+libkpathsea6                20130529-1                     OK
+libkrb5_26                  1.5.2-4                        OK
+liblapack-devel             3.5.0-2                        OK
+liblapack0                  3.5.0-2                        OK
+liblcms1                    1.19-3                         OK
+liblcms2_2                  2.5-1                          OK
+libllvm-devel               3.1-3                          OK
+libllvm3.1                  3.1-3                          OK
+libltdl7                    2.4-1                          OK
+liblzma-devel               5.0.2_20110517-1               OK
+liblzma1                    4.999.9beta-11                 OK
+liblzma5                    5.0.2_20110517-1               OK
+liblzo2_2                   2.06-1                         OK
+libMagickCore5              6.7.6.3-3                      OK
+libmcpp0                    2.7.2-2                        OK
+libmetalink3                0.1.2-1                        OK
+libmetis-devel              5.1.0-1                        OK
+libmetis0                   5.1.0-1                        OK
+libming1                    0.4.5-1                        OK
+libmng1                     1.0.10-3                       OK
+libmpc-devel                1.0.1-2                        OK
+libmpc1                     0.8-1                          OK
+libmpc3                     1.0.1-2                        OK
+libmpfr-devel               3.1.2-1                        OK
+libmpfr1                    2.4.1-4                        OK
+libmpfr4                    3.1.2-1                        OK
+libmysqlclient-devel        5.5.35-1                       OK
+libmysqlclient18            5.5.35-1                       OK
+libmysqld-devel             5.5.35-1                       OK
+libmysqld0                  5.5.35-1                       OK
+libncurses-devel            5.7-18                         OK
+libncurses10                5.7-18                         OK
+libncurses9                 5.7-16                         OK
+libncursesw-devel           5.7-18                         OK
+libncursesw10               5.7-18                         OK
+libneon27                   0.29.6-3                       OK
+libnetcdf7                  4.3.1.1-1                      OK
+libnettle4                  2.7-1                          OK
+libobjc4                    4.8.2-2                        OK
+libopenjpeg1                1.5.1-3                        OK
+libopenldap2_3_0            2.3.43-3                       OK
+libopenldap2_4_2            2.4.35-2                       OK
+libopenmpi                  1.7.4-1                        OK
+libopenmpi-devel            1.7.4-1                        OK
+libopenmpicxx1              1.7.4-1                        OK
+libopenmpifh2               1.7.4-1                        OK
+libopenmpiuse1              1.7.4-1                        OK
+libopenssl098               0.9.8y-1                       OK
+libopenssl100               1.0.1f-3                       OK
+libp11-kit0                 0.18.7-1                       OK
+libpango1.0_0               1.34.1-1                       OK
+libpaper-common             1.1.24-2                       OK
+libpaper1                   1.1.24-2                       OK
+libpcre-devel               8.33-1                         OK
+libpcre0                    8.21-2                         OK
+libpcre1                    8.33-1                         OK
+libpcre16_0                 8.33-1                         OK
+libpcre32_0                 8.33-1                         OK
+libpcrecpp0                 8.33-1                         OK
+libpcreposix0               8.33-1                         OK
+libpgtypes2                 8.2.11-1                       OK
+libpgtypes3                 9.3.2-2                        OK
+libpixman1_0                0.32.4-1                       OK
+libplotter2                 2.6-3                          OK
+libpng-devel                1.5.12-1                       OK
+libpng12                    1.2.50-2                       OK
+libpng12-devel              1.2.50-2                       OK
+libpng14                    1.4.12-3                       OK
+libpng15                    1.5.12-1                       OK
+libpoppler28                0.20.5-2                       OK
+libpopt0                    1.16-1                         OK
+libppl-devel                0.11.2-1                       OK
+libppl9                     0.11.2-1                       OK
+libppl_c4                   0.11.2-1                       OK
+libpq                       8.2.11-1                       OK
+libpq-devel                 9.3.2-2                        OK
+libpq3                      7.4.5-1                        OK
+libpq5                      9.3.2-2                        OK
+libproxy1                   0.4.11-2                       OK
+libpstoedit0                3.62-1                         OK
+libptexenc1                 20130529-1                     OK
+libpwl5                     0.11.2-1                       OK
+libqhull_6                  2012.1-2                       OK
+libqrupdate-devel           1.1.2-1                        OK
+libqrupdate0                1.1.2-1                        OK
+libqscintilla2-common       2.8-1                          OK
+libqscintilla2-devel        2.8-1                          OK
+libqscintilla2_11           2.8-1                          OK
+libqscintilla2_9            2.7.2-1                        OK
+libQtCore4                  4.8.5-3                        OK
+libQtCore4-devel            4.8.5-3                        OK
+libQtGui4                   4.8.5-3                        OK
+libQtGui4-devel             4.8.5-3                        OK
+libQtNetwork4               4.8.5-3                        OK
+libQtNetwork4-devel         4.8.5-3                        OK
+libQtXml4                   4.8.5-3                        OK
+libquadmath0                4.8.2-2                        OK
+libreadline6                5.2.14-12                      OK
+libreadline7                6.1.2-3                        OK
+libroken18                  1.5.2-4                        OK
+librsvg2_2                  2.36.4-1                       OK
+libsasl2                    2.1.23-1                       OK
+libsasl2-devel              2.1.26-6                       OK
+libsasl2_3                  2.1.26-6                       OK
+libsecret1_0                0.15-1                         OK
+libserf1_0                  1.3.3-1                        OK
+libsigsegv2                 2.10-1                         OK
+libSM-devel                 1.2.2-1                        OK
+libSM6                      1.2.2-1                        OK
+libsoup-gnome2.4_1          2.42.3.1-1                     OK
+libsoup2.4_1                2.42.3.1-1                     OK
+libsqlite3-devel            3.8.3.1-1                      OK
+libsqlite3_0                3.8.3.1-1                      OK
+libssh2_1                   1.4.2-1                        OK
+libssp0                     4.8.2-2                        OK
+libstdc++6                  4.8.2-2                        OK
+libstdc++6-devel            4.8.2-2                        OK
+libsuitesparseconfig-devel  4.2.1-1                        OK
+libsuitesparseconfig0       4.2.1-1                        OK
+libsybdb-devel              0.91-4                         OK
+libsybdb5                   0.91-4                         OK
+libtasn1_3                  2.14-1                         OK
+libtasn1_6                  3.3-1                          OK
+libtdb-devel                1.2.11-2                       OK
+libtdb1                     1.2.11-2                       OK
+libthai0                    0.1.19-1                       OK
+libtiff-devel               3.9.7-1                        OK
+libtiff5                    3.9.7-1                        OK
+libtool                     2.4-1                          OK
+libumfpack-devel            5.6.2-1                        OK
+libumfpack0                 5.6.2-1                        OK
+libusb-win32                1.2.6.0-1                      OK
+libusb0                     1.2.6.0-1                      OK
+libuuid-devel               2.21.2-1                       OK
+libuuid1                    2.21.2-1                       OK
+libvpx                      1.1.0-1                        OK
+libvpx-devel                1.1.0-1                        OK
+libvpx1                     1.1.0-1                        OK
+libwind0                    1.5.2-4                        OK
+libWINGs2                   0.95.4-1                       OK
+libwmf027                   0.2.8.4-11                     OK
+libwrap-devel               7.6-22                         OK
+libwrap0                    7.6-22                         OK
+libwraster3                 0.95.4-1                       OK
+libX11-devel                1.6.2-1                        OK
+libX11-xcb-devel            1.6.2-1                        OK
+libX11-xcb1                 1.6.2-1                        OK
+libX11_6                    1.6.2-1                        OK
+libXau-devel                1.0.8-1                        OK
+libXau6                     1.0.8-1                        OK
+libXaw7                     1.0.12-1                       OK
+libxcb-devel                1.9.1-2                        OK
+libxcb-glx-devel            1.9.1-2                        OK
+libxcb-glx0                 1.9.1-2                        OK
+libxcb-icccm4               0.3.9-1                        OK
+libxcb-image0               0.3.9-1                        OK
+libxcb-render0              1.9.1-2                        OK
+libxcb-shm0                 1.9.1-2                        OK
+libxcb-util1                0.3.9-1                        OK
+libxcb1                     1.9.1-2                        OK
+libXcomposite1              0.4.3-1                        OK
+libXcursor-devel            1.1.14-1                       OK
+libXcursor1                 1.1.14-1                       OK
+libXdamage-devel            1.1.4-1                        OK
+libXdamage1                 1.1.4-1                        OK
+libXdmcp-devel              1.1.1-1                        OK
+libXdmcp6                   1.1.1-1                        OK
+libXext-devel               1.3.2-1                        OK
+libXext6                    1.3.2-1                        OK
+libXfixes-devel             5.0.1-1                        OK
+libXfixes3                  5.0.1-1                        OK
+libXft-devel                2.3.1-1                        OK
+libXft2                     2.3.1-1                        OK
+libXi-devel                 1.7.2-1                        OK
+libXi6                      1.7.2-1                        OK
+libXinerama-devel           1.1.3-1                        OK
+libXinerama1                1.1.3-1                        OK
+libxkbfile1                 1.0.8-1                        OK
+libxml2                     2.9.1-1                        OK
+libxml2-debuginfo           2.9.1-1                        OK
+libxml2-devel               2.9.1-1                        OK
+libxml2-doc                 2.9.1-1                        OK
+libXmu6                     1.1.2-1                        OK
+libXmuu1                    1.1.2-1                        OK
+libXpm4                     3.5.11-1                       OK
+libXrandr-devel             1.4.2-1                        OK
+libXrandr2                  1.4.2-1                        OK
+libXrender-devel            0.9.8-1                        OK
+libXrender1                 0.9.8-1                        OK
+libxslt                     1.1.28-1                       OK
+libxslt-devel               1.1.28-1                       OK
+libxslt-doc                 1.1.28-1                       OK
+libXss1                     1.2.2-1                        OK
+libXt-devel                 1.1.4-1                        OK
+libXt6                      1.1.4-1                        OK
+libXtst6                    1.2.2-1                        OK
+libyaml0_2                  0.1.4-2                        OK
+libzzip-devel               0.13.62-1                      OK
+libzzip0.13                 0.13.62-1                      OK
+llvm                        3.1-3                          OK
+llvm-doc                    3.1-3                          OK
+login                       1.10-10                        OK
+lua                         5.1.5-1                        OK
+luit                        20130217-1                     OK
+lzip                        1.14-1                         OK
+m4                          1.4.17-1                       OK
+make                        4.0-2                          OK
+man                         1.6g-2                         OK
+mathomatic                  16.0.0-1                       OK
+mcpp                        2.7.2-2                        OK
+mercurial                   2.7.1-1                        OK
+mesa                        8.0.5-1                        OK
+mhash                       0.9.2-1                        OK
+mingw-binutils              2.23.1-1                       OK
+mingw-bzip2                 1.0.6-2                        OK
+mingw-gcc-core              4.7.3-1                        OK
+mingw-gcc-g++               4.7.3-1                        OK
+mingw-libbz2-devel          1.0.6-2                        OK
+mingw-libbz2_2              1.0.6-2                        OK
+mingw-pthreads              20110507-2                     OK
+mingw-runtime               4.0-1                          OK
+mingw-w32api                4.0-1                          OK
+mingw-zlib                  1.2.8-1                        OK
+mingw-zlib-devel            1.2.8-1                        OK
+mingw-zlib1                 1.2.8-1                        OK
+mingw64-i686-binutils       2.22.52-1                      OK
+mingw64-i686-gcc            4.8.2-2                        OK
+mingw64-i686-gcc-core       4.8.2-2                        OK
+mingw64-i686-gcc-g++        4.8.2-2                        OK
+mingw64-i686-headers        3.1.0-1                        OK
+mingw64-i686-minizip        1.2.8-3                        OK
+mingw64-i686-pthreads       20100619-5                     OK
+mingw64-i686-runtime        3.1.0-1                        OK
+mingw64-i686-winpthreads    3.1.0-1                        OK
+mingw64-i686-zlib           1.2.8-3                        OK
+mingw64-x86_64-binutils     2.22.52-1                      OK
+mingw64-x86_64-bzip2        1.0.6-4                        OK
+mingw64-x86_64-gcc          4.8.2-2                        OK
+mingw64-x86_64-gcc-core     4.8.2-2                        OK
+mingw64-x86_64-gcc-g++      4.8.2-2                        OK
+mingw64-x86_64-headers      3.1.0-1                        OK
+mingw64-x86_64-minizip      1.2.8-3                        OK
+mingw64-x86_64-pthreads     20100619-5                     OK
+mingw64-x86_64-runtime      3.1.0-1                        OK
+mingw64-x86_64-winpthreads  3.1.0-1                        OK
+mingw64-x86_64-xz           5.0.5-1                        OK
+mingw64-x86_64-zlib         1.2.8-3                        OK
+mintty                      1.1.3-1                        OK
+mkfontdir                   1.0.7-1                        OK
+mkfontscale                 1.1.1-1                        OK
+mpclib                      1.0.1-2                        OK
+mpfr                        3.1.2-1                        OK
+mysql                       5.5.35-1                       OK
+mysql-test                  5.5.35-1                       OK
+mysqld                      5.5.35-1                       OK
+ncurses                     5.7-18                         OK
+ocaml                       4.01.0-2                       OK
+ocaml-base                  4.01.0-1                       OK
+ocaml-camlp4                4.01.0-1                       OK
+ocaml-compiler-libs         4.01.0-1                       OK
+ocaml-llvm                  3.1-3                          OK
+octave                      3.8.0-2                        OK
+octave-control              2.6.2-1                        OK
+octave-devel                3.8.0-2                        OK
+octave-doc                  3.8.0-2                        OK
+octave-forge                20140215-1                     OK
+octave-general              1.3.4-1                        OK
+octave-image                2.2.0r867-1                    OK
+octave-signal               1.3.0-1                        OK
+odbc-mysql                  5.2.5-1                        OK
+odbc-psql                   09.02.0100-1                   OK
+odbc-sqlite3                0.993-1                        OK
+odbc-tds                    0.91-4                         OK
+openldap-devel              2.4.35-2                       OK
+openmpi                     1.7.4-1                        OK
+openssh                     6.5p1-1                        OK
+openssl                     1.0.1f-3                       OK
+openssl-devel               1.0.1f-3                       OK
+p11-kit                     0.18.7-1                       OK
+p11-kit-trust               0.18.7-1                       OK
+p7zip                       9.20.1-1                       OK
+patch                       2.7.1-1                        OK
+patcher                     0.0.20040521-1                 OK
+patchutils                  0.3.2-1                        OK
+perl                        5.14.2-3                       OK
+perl-Clone                  0.34-1                         OK
+perl-DBD-mysql              4.022-1                        OK
+perl-DBI                    1.623-2                        OK
+perl-Error                  0.17016-1                      OK
+perl-Image-Magick           6.7.6.3-3                      OK
+perl-Locale-gettext         1.05-12                        OK
+perl_vendor                 5.14.2-3                       OK
+poppler-data                0.4.6-1                        OK
+popt                        1.16-1                         OK
+postgresql                  9.3.2-2                        OK
+postgresql-client           9.3.2-2                        OK
+postgresql-contrib          9.3.2-2                        OK
+postgresql-devel            9.3.2-2                        OK
+postgresql-doc              9.3.2-2                        OK
+postgresql-plperl           9.3.2-2                        OK
+postgresql-plpython         9.3.2-2                        OK
+pylint                      0.25.1-2                       OK
+python                      2.7.3-1                        OK
+python-bsddb3               5.3.0-2                        OK
+python-clang                3.1-3                          OK
+python-fastimport           0.9.2-2                        OK
+python-imaging              1.1.7-5                        OK
+python-libxml2              2.9.1-1                        OK
+python-libxslt              1.1.28-1                       OK
+python-logilab-astng        0.23.1-2                       OK
+python-logilab-common       0.58.0-2                       OK
+python-pyrex                0.9.9-3                        OK
+python-tkinter              2.7.3-1                        OK
+python3                     3.2.3-1                        OK
+python3-clang               3.1-3                          OK
+R                           3.0.1-1                        OK
+randrproto                  1.4.0-1                        OK
+readline                    6.1.2-3                        OK
+rebase                      4.4.1-1                        OK
+renderproto                 0.11.1-1                       OK
+rlwrap                      0.37-1                         OK
+rsync                       3.0.9-1                        OK
+ruby                        1.9.3-p484-1                   OK
+ruby-json                   1.8.0-1                        OK
+ruby-rake                   10.0.4-1                       OK
+ruby-rdoc                   3.12.2-1                       OK
+ruby-tcltk                  1.9.3-p484-1                   OK
+run                         1.3.0-1                        OK
+sed                         4.2.2-3                        OK
+sgml-common                 0.6.3-3                        OK
+shared-mime-info            1.1-1                          OK
+sqlite3                     3.8.3.1-1                      OK
+subversion                  1.8.8-1                        OK
+subversion-perl             1.8.8-1                        OK
+svn-load                    1.3-1                          OK
+t1lib5                      5.1.2-12                       OK
+tar                         1.26-1                         OK
+tcl                         8.5.11-1                       OK
+tcl-db4.5                   4.5.20.2-3                     OK
+tcl-db4.8                   4.8.30-1                       OK
+tcl-itcl                    3.4.1-1                        OK
+tcl-itk                     3.3-2                          OK
+tcl-ming                    0.4.5-1                        OK
+tcl-sqlite3                 3.8.3.1-1                      OK
+tcl-tix                     8.4.3-2                        OK
+tcl-tk                      8.5.11-1                       OK
+tdb                         1.2.11-2                       OK
+terminfo                    5.7_20091114-14                OK
+terminfo-extra              5.7_20091114-14                OK
+texinfo                     5.2-1                          OK
+texlive                     20130529-1                     OK
+texlive-collection-basic    20130529-1                     OK
+tree                        1.6.0-1                        OK
+tzcode                      2013d-1                        OK
+unzip                       6.0-10                         OK
+urlgrabber                  3.1.0-3                        OK
+util-linux                  2.21.2-1                       OK
+vim                         7.4.182-1                      OK
+vim-common                  7.4.182-1                      OK
+vim-minimal                 7.4.182-1                      OK
+w32api-headers              3.1.0-1                        OK
+w32api-runtime              3.1.0-1                        OK
+wget                        1.13.4-1                       OK
+which                       2.20-2                         OK
+WindowMaker                 0.95.4-1                       OK
+WordNet                     3.0-3                          OK
+X-start-menu-icons          1.0.4-1                        OK
+xauth                       1.0.8-1                        OK
+xcalc                       1.0.5-1                        OK
+xcursor-themes              1.0.4-1                        OK
+xemacs-emacs-common         21.4.22-1                      OK
+xextproto                   7.3.0-1                        OK
+xf86-video-dummy            0.3.7-1                        OK
+xf86-video-nested           0.1.0-4                        OK
+xineramaproto               1.2.1-1                        OK
+xinit                       1.3.2-1                        OK
+xkbcomp                     1.2.4-1                        OK
+xkeyboard-config            2.10.1-1                       OK
+xlsx2csv                    0.11+20120814+gitf54ab78-1     OK
+xmodmap                     1.0.8-1                        OK
+xorg-server                 1.15.0-3                       OK
+xorg-server-common          1.15.0-3                       OK
+xproto                      7.0.25-1                       OK
+xrdb                        1.1.0-1                        OK
+xterm                       302-1                          OK
+xxd                         7.4.182-1                      OK
+xz                          5.0.2_20110517-1               OK
+ytree                       1.97-1                         OK
+zip                         3.0-11                         OK
+zlib                        1.2.8-1                        OK
+zlib-devel                  1.2.8-1                        OK
+zlib0                       1.2.8-1                        OK
