@@ -4,7 +4,7 @@ grep -o 'pm=[0-9]*' list.html >tmp.txt
 sed -i 's/pm=//' tmp.txt
 cat tmp.txt | sort -u > list.txt
 echo "finish generate problem id"
-if which git; then
+if which gettc; then
     echo "gettc installed."
 else
     echo "No gettc installed, installing gettc"

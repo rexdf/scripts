@@ -3,7 +3,10 @@ Package                     Version                        Status
 _autorebase                 000511-1                       OK
 _update-info-dir            01211-1                        OK
 alternatives                1.3.30c-10                     OK
+apache2                     2.2.23-2                       OK
+apache2-devel               2.2.23-2                       OK
 at-spi2-core                2.8.0-1                        OK
+attr                        2.4.46-1                       OK
 autoconf                    13-1                           OK
 autoconf2.1                 2.13-12                        OK
 autoconf2.5                 2.69-2                         OK
@@ -48,6 +51,7 @@ cloog-ppl                   0.15.11-1                      OK
 cmake                       2.8.9-2                        OK
 coreutils                   8.15-1                         OK
 cpio                        2.11-2                         OK
+cron                        4.1-59                         OK
 crypt                       1.2-1                          OK
 csih                        0.9.7-1                        OK
 ctags                       5.8-1                          OK
@@ -55,6 +59,7 @@ curl                        7.34.0-1                       OK
 cvs                         1.12.13-10                     OK
 cvs2svn                     2.4.0-1                        OK
 cvsps                       2.2b1-1                        OK
+cygport                     0.14.1-1                       OK
 cygrunsrv                   1.50-1                         OK
 cygutils                    1.4.14-1                       OK
 cygwin                      1.7.28-2                       OK
@@ -78,6 +83,7 @@ cygwin64-libtool            2.4.2-2                        OK
 cygwin64-libxml2            2.9.0-2                        OK
 cygwin64-libxslt            1.1.27-2                       OK
 cygwin64-mpfr               3.1.2-1                        OK
+cygwin64-openssl            1.0.1e-2                       OK
 cygwin64-ppl                0.11.2-1                       OK
 cygwin64-sqlite3            3.7.15.2-1                     OK
 cygwin64-tcl                8.5.11-1                       OK
@@ -94,6 +100,7 @@ dconf-service               0.16.1-1                       OK
 dejagnu                     1.5-1                          OK
 desktop-file-utils          0.21-1                         OK
 dialog                      1.2-20140112-1                 OK
+diffstat                    1.58-1                         OK
 diffutils                   3.2-1                          OK
 docbook-xml-simple10        1.0-2                          OK
 docbook-xml-simple11        1.1-2                          OK
@@ -105,6 +112,7 @@ editrights                  1.01-2                         OK
 emacs                       24.3-2                         OK
 expat                       2.1.0-3                        OK
 expect                      5.45-1                         OK
+fcgi                        2.4.0-2                        OK
 file                        5.11-1                         OK
 findutils                   4.5.11-1                       OK
 fixesproto                  5.0-1                          OK
@@ -173,13 +181,16 @@ isl                         0.11.1-2                       OK
 isl-debuginfo               0.11.1-2                       OK
 kbproto                     1.0.6-1                        OK
 less                        444-1                          OK
+lftp                        4.4.14-1                       OK
 libAfterImage               1.18-1                         OK
 libAfterImage-devel         1.18-1                         OK
 libAfterImage0              1.18-1                         OK
 libamd-devel                2.3.1-2                        OK
 libamd0                     2.3.1-2                        OK
 libapr1                     1.4.8-1                        OK
+libapr1-devel               1.4.8-1                        OK
 libaprutil1                 1.5.2-4                        OK
+libaprutil1-devel           1.5.2-4                        OK
 libarchive2                 2.8.3-1                        OK
 libargp                     20110921-2                     OK
 libarpack-devel             3.1.4-1                        OK
@@ -245,6 +256,7 @@ libecpg5                    8.2.11-1                       OK
 libecpg6                    9.3.2-2                        OK
 libedit0                    20130712-1                     OK
 libEMF1                     1.0.7-2                        OK
+libevtlog0                  0.2.12-2                       OK
 libexpat-devel              2.1.0-3                        OK
 libexpat0                   1.95.8-2                       OK
 libexpat1                   2.1.0-3                        OK
@@ -381,6 +393,7 @@ libmysqld-devel             5.5.35-1                       OK
 libmysqld0                  5.5.35-1                       OK
 libncurses-devel            5.7-18                         OK
 libncurses10                5.7-18                         OK
+libncurses7                 5.3-4                          OK
 libncurses9                 5.7-16                         OK
 libncursesw-devel           5.7-18                         OK
 libncursesw10               5.7-18                         OK
@@ -551,11 +564,15 @@ libXtst6                    1.2.2-1                        OK
 libyaml0_2                  0.1.4-2                        OK
 libzzip-devel               0.13.62-1                      OK
 libzzip0.13                 0.13.62-1                      OK
+lighttpd                    1.4.34-1                       OK
+links                       2.7-1                          OK
 llvm                        3.1-3                          OK
 llvm-doc                    3.1-3                          OK
+lndir                       1.0.3-1                        OK
 login                       1.10-10                        OK
 lua                         5.1.5-1                        OK
 luit                        20130217-1                     OK
+lynx                        2.8.7-1                        OK
 lzip                        1.14-1                         OK
 m4                          1.4.17-1                       OK
 make                        4.0-2                          OK
@@ -617,6 +634,7 @@ mpfr                        3.1.2-1                        OK
 mysql                       5.5.35-1                       OK
 mysql-test                  5.5.35-1                       OK
 mysqld                      5.5.35-1                       OK
+ncftp                       3.2.5-1                        OK
 ncurses                     5.7-18                         OK
 ocaml                       4.01.0-2                       OK
 ocaml-base                  4.01.0-1                       OK
@@ -663,6 +681,8 @@ postgresql-devel            9.3.2-2                        OK
 postgresql-doc              9.3.2-2                        OK
 postgresql-plperl           9.3.2-2                        OK
 postgresql-plpython         9.3.2-2                        OK
+proftpd                     1.2.10-1                       OK
+pure-ftpd                   1.0.29-1                       OK
 pylint                      0.25.1-2                       OK
 python                      2.7.3-1                        OK
 python-bsddb3               5.3.0-2                        OK
@@ -700,10 +720,12 @@ sed                         4.2.2-3                        OK
 sgml-common                 0.6.3-3                        OK
 shared-mime-info            1.1-1                          OK
 sqlite3                     3.8.3.1-1                      OK
+squid                       3.3.3-1                        OK
 subversion                  1.8.8-1                        OK
 subversion-perl             1.8.8-1                        OK
 sunrpc                      4.0-4                          OK
 svn-load                    1.3-1                          OK
+syslog-ng                   3.2.5-1                        OK
 t1lib5                      5.1.2-12                       OK
 tar                         1.26-1                         OK
 tcl                         8.5.11-1                       OK
@@ -718,14 +740,19 @@ tcl-tk                      8.5.11-1                       OK
 tdb                         1.2.11-2                       OK
 terminfo                    5.7_20091114-14                OK
 terminfo-extra              5.7_20091114-14                OK
+terminfo0                   5.5_20061104-12                OK
 texinfo                     5.2-1                          OK
 texlive                     20130529-1                     OK
 texlive-collection-basic    20130529-1                     OK
+tftp                        5.2-1                          OK
+tftp-server                 5.2-1                          OK
+tnftp                       20100108-1                     OK
 tree                        1.6.0-1                        OK
 tzcode                      2013d-1                        OK
 unzip                       6.0-10                         OK
 urlgrabber                  3.1.0-3                        OK
 util-linux                  2.21.2-1                       OK
+varnish                     3.0.2-1                        OK
 vim                         7.4.182-1                      OK
 vim-common                  7.4.182-1                      OK
 vim-minimal                 7.4.182-1                      OK
@@ -733,6 +760,7 @@ w32api-headers              3.1.0-1                        OK
 w32api-runtime              3.1.0-1                        OK
 wget                        1.13.4-1                       OK
 which                       2.20-2                         OK
+whois                       5.0.26-1                       OK
 WindowMaker                 0.95.4-1                       OK
 WordNet                     3.0-3                          OK
 X-start-menu-icons          1.0.4-1                        OK
@@ -744,6 +772,7 @@ xextproto                   7.3.0-1                        OK
 xf86-video-dummy            0.3.7-1                        OK
 xf86-video-nested           0.1.0-4                        OK
 xineramaproto               1.2.1-1                        OK
+xinetd                      2.3.14-1                       OK
 xinit                       1.3.2-1                        OK
 xkbcomp                     1.2.4-1                        OK
 xkeyboard-config            2.10.1-1                       OK
