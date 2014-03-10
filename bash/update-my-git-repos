@@ -1,10 +1,12 @@
 #!/usr/bin/sh
 for dir in `ls`; do
-   pushd $dir
-   pwd
-   git reset --hard
-   git pull
-   svn upgrade .
-   svn update .
-   popd
+   if [ -d "$dir" ]; then
+       pushd "$dir"
+       pwd
+       git reset --hard
+       git pull
+       svn upgrade .
+       svn update .
+       popd
+   fi
 done
