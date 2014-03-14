@@ -17,7 +17,7 @@ else
 fi
 
 mkdir _prob
-popd _prob
+pushd _prob
 for num in `cat ../list.txt`; do gettc $num; done
 popd
 echo "Finish download everthing"
