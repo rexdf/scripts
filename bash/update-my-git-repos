@@ -3,10 +3,15 @@ for dir in `ls`; do
    if [ -d "$dir" ]; then
        pushd "$dir"
        pwd
-       git reset --hard
-       git pull
-       svn upgrade .
-       svn update .
+       if [ -d .git ]; then
+           git reset --hard
+           git pull
+       fi
+       if [ -d .svn ]; then
+           svn cleanup
+           svn upgrade .
+           svn update .
+       fi
        popd
    fi
 done

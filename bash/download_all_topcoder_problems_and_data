@@ -1,5 +1,5 @@
 #!/bin/bash
-wget "http://community.topcoder.com/tc?module=ProblemArchive&sr=1&er=3256&sc=&sd=&class=&cat=&div1l=&div2l=&mind1s=&mind2s=&maxd1s=&maxd2s=&wr=" --output-document=list.html
+wget "http://community.topcoder.com/tc?module=ProblemArchive&sr=1&er=3800&sc=&sd=&class=&cat=&div1l=&div2l=&mind1s=&mind2s=&maxd1s=&maxd2s=&wr=" --output-document=list.html
 grep -o 'pm=[0-9]*' list.html >tmp.txt
 sed -i 's/pm=//' tmp.txt
 cat tmp.txt | sort -u > list.txt
