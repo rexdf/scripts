@@ -9,6 +9,7 @@ if [ $# -eq 1 ]; then
         echo "git only update git repositories"
         echo "svn only update svn repositories"
         echo "--help for help"
+        exit
     fi
 fi
     
@@ -22,11 +23,11 @@ for dir in `ls`; do
        else
            OPENCV=0
        fi
-       if [ -d .git ] && ( [ -z $GIT ] || [ $GIT -eq 1 ] ); then
+       if [ -d .git ] && ( ( [ ! -z $GIT ] && [ -z $SVN ] ) || ( [ -z $SVN ] && [ -z $GIT ] ) ); then
            git reset --hard
            git pull
        fi
-       if [ -d .svn ] && ( [ -z $SVN] || [ $SVN -eq 1 ] ); then
+       if [ -d .svn ] && ( ( [ ! -z $SVN ] && [ -z $GIT ] ) || ( [ -z $SVN ] && [ -z $GIT ] ) ); then
            svn cleanup
            svn upgrade .
            svn update .
