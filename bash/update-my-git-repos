@@ -1,16 +1,38 @@
 #!/usr/bin/sh
+
+if [ $# -eq 1 ]; then
+    if [[ $1 = "git" ]]; then
+        GIT=1
+    elif [[ $1 = "svn" ]]; then
+        SVN=1
+    else
+        echo "git only update git repositories"
+        echo "svn only update svn repositories"
+        echo "--help for help"
+    fi
+fi
+    
 for dir in `ls`; do
    if [ -d "$dir" ]; then
        pushd "$dir"
        pwd
-       if [ -d .git ]; then
+       if [ -d opencv ]; then
+           OPENCV=1
+           pushd opencv
+       else
+           OPENCV=0
+       fi
+       if [ -d .git ] && ( [ -z $GIT ] || [ $GIT -eq 1 ] ); then
            git reset --hard
            git pull
        fi
-       if [ -d .svn ]; then
+       if [ -d .svn ] && ( [ -z $SVN] || [ $SVN -eq 1 ] ); then
            svn cleanup
            svn upgrade .
            svn update .
+       fi
+       if [ $OPENCV -eq 1 ]; then
+           popd
        fi
        popd
    fi
