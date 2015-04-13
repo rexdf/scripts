@@ -32,6 +32,10 @@ for dir in `ls`; do
            svn upgrade .
            svn update .
        fi
+       if [ -d .hg ]; then
+          hg pull
+          hg update
+       fi
        if [ $OPENCV -eq 1 ]; then
            popd
        fi
