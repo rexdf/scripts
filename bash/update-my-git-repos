@@ -26,11 +26,18 @@ for dir in `ls`; do
        if [ -d .git ] && ( ( [ ! -z $GIT ] && [ -z $SVN ] ) || ( [ -z $SVN ] && [ -z $GIT ] ) ); then
            git reset --hard
            git pull
+           git submodule update --init
+           if [ -f git.exe.stackdump ]; then
+              rm git.exe.stackdump
+           fi
        fi
        if [ -d .svn ] && ( ( [ ! -z $SVN ] && [ -z $GIT ] ) || ( [ -z $SVN ] && [ -z $GIT ] ) ); then
            svn cleanup
            svn upgrade .
            svn update .
+           if [ -f svn.exe.stackdump ]; then
+              rm svn.exe.stackdump
+           fi
        fi
        if [ -d .hg ]; then
           hg pull
